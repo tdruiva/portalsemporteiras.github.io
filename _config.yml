@@ -1,0 +1,43 @@
+title: Associação Portal Sem Porteiras
+description: Associação PSP tem o objetivo de instlar uma rede comunitária no Bairro dos Souzas - Monteiro Lobato
+
+url: http://potalsemporteiras.github.io/
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+enable_coderay: false
+
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: Sobre
+    url: /sobre
+  - title: Estatuto
+    url: /estatuto
+  - title: Contato
+    url: /contato
+
+social:
+  github: portalsemporteiras
+  twitter:
+  facebook: portalsemporteiras
+  email: portalsemporteiras@gmail.com
+
+#google_analytics: "UA-58263416-1"
