@@ -121,8 +121,8 @@ MENU STYLING
   padding: 0 .5em;
   color: white;
   text-decoration: none;
-  position: relative;
-  right: 2rem;
+  position: fixed;
+  left: 2rem;
   transition: all 0.2s ease-in-out;
 
   &:hover {

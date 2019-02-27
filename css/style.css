@@ -37,6 +37,8 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
+
+
 /* Grouping content
    ========================================================================== */
 /**
@@ -1087,6 +1089,8 @@ HEADER STYLING
           .header nav ul li.current {
             padding-bottom: .25em;
             border-bottom: 4px solid rgba(255, 255, 255, 0.4); }
+
+
   /***************
 MENU STYLING
 ***************/
