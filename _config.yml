@@ -6,6 +6,8 @@ baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
+host: 0.0.0.0
+
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 markdown: kramdown
@@ -33,6 +35,8 @@ navigation:
     url: /estatuto
   - title: Contato
     url: /contato
+  - title: Serviços
+    url: /serviços
 
 social:
   github: portalsemporteiras
