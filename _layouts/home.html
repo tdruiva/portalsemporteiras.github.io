@@ -23,12 +23,11 @@
 
     <ul id="menu">
         <li data-menuanchor="psp"><a href="#psp">Portal sem Porteiras</a></li>
+        <li data-menuanchor="quem_somos"><a href="#quem_somos">Quem Somos</a></li>
         <li data-menuanchor="social"><a href="#social">Social Links</a></li>
-        <li data-menuanchor="videos"><a href="#videos">Vídeos</a></li>
     </ul>
 
     <div id="section0" class="section" data-name="psp">
-
         <div class="logo">
             <img src="{{ site.baseurl }}/assets/images/logo.png" with="auto" height="auto" alt="logo" class="imglogo" />
         </div>
@@ -40,21 +39,23 @@
             {{ section[1] }}
           {% endfor %}
         </div>
-
-        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
     </div>
 
-    <div id="section2" class="section" data-name="videos">
-        <h1>Apresentação</h1>
-        <div class="animated">
-
-            <iframe src="https://player.vimeo.com/video/333190776" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="margin-top: 200px;"></iframe>
-
-
+    <div id="section1" class="section" data-name="quem_somos">
+        <h1>Quem Somos</h1>
+        <div class="animated conteudo">
+          <div>
+            <iframe src="https://player.vimeo.com/video/333190776" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+          <div class="sobre">
+            <p>
+              Somos uma rede comunitária, provedor de internet é outra coisa.
+            </p>
+          </div>
         </div>
-        <!-- <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#video"></a> -->
+      </div>
     </div>
-    <div id="section1" class="section" data-name="social">
+    <div id="section2" class="section" data-name="social">
         <h1 class="animated hidden">
             <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter_blog }}" href="{{ site.paths.blog | relative_url }}">{{ site.data.i18n[site.lang].enter_blog }}</a>
         </h1>
