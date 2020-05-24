@@ -1,11 +1,8 @@
 ---
-layout: post
-title: Estatuto da Associação PSP
+layout: saibamais
 ---
 
-
-<p class="intro"><span class="dropcap"></span>Estatuto Social da Associação Portal Sem Porteiras
-_____________________________________________________________________</p>
+# Estatuto da Associação
 
 "Associação Portal sem Porteiras" "É livre a expressão da atividade intelectual artística,
 científica e de comunicação, independente de censura ou
