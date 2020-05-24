@@ -32,19 +32,7 @@ author:
   location:
   email:
   social_links:
-    - name: facebook
-      url:
-    - name: github
-      url: https://github.com/portalsemporteiras
     - name: instagram
-      url:
-    - name: linkedin
-      url:
-    - name: stackoverflow
-      url:
-    - name: twitter
-      url:
-    - name: vk
       url:
 home:
   section2: <h2>Rede de Comunicação Comunitária</h2>
