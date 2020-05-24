@@ -24,7 +24,7 @@
     <ul id="menu">
         <li data-menuanchor="psp"><a href="#psp">Portal sem Porteiras</a></li>
         <li data-menuanchor="quem_somos"><a href="#quem_somos">Quem Somos</a></li>
-        <li data-menuanchor="social"><a href="#social">Social Links</a></li>
+        <li data-menuanchor="saiba_mais"><a href="#saiba_mais">Saiba Mais</a></li>
     </ul>
 
     <div id="section0" class="section" data-name="psp">
@@ -55,12 +55,36 @@
         </div>
       </div>
     </div>
-    <div id="section2" class="section" data-name="social">
-        <h1 class="animated hidden">
-            <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter_blog }}" href="{{ site.paths.blog | relative_url }}">{{ site.data.i18n[site.lang].enter_blog }}</a>
-        </h1>
+    <div id="section2" class="section" data-name="saiba_mais">
+        <h1>Saiba Mais</h1>
+        <div class="animated conteudo">
+          <div>
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" class="imglogo" />
+            <h4>Projeto Nós por Nós</h4>
+          </div>
+          <div>
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" class="imglogo" />
+            <h4>Rádio PSP</h4>
+          </div>
+          <div>
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" class="imglogo" />
+            <h4>Newsletter 2019</h4>
+          </div>
+          <div>
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" class="imglogo" />
+            <h4>Rede Local</h4>
+          </div>
+          <div>
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" class="imglogo" />
+            <h4>Expansão da Rede</h4>
+          </div>
+          <div>
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" class="imglogo" />
+            <h4>Estatuto</h4>
+          </div>
+        </div>
+      </div>
         <div class="social-links animated hidden">
-            <a class="btn-light ico-rss" href="{{ site.baseurl }}/feed.xml" rel="me" target="_blank" title="feed"></a>
             {% if site.author.email %}
                 <a class="btn-light ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
             {% endif %}
@@ -71,8 +95,6 @@
             {% endfor %}
         </div>
     </div>
-
-
 
     {% include home/scripts.html %}
 </body>
