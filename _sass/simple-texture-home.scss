@@ -111,17 +111,14 @@ textarea {
     border: 1px solid #150E1F;
     outline: none;
 
-    &:hover {
-        border: 1px solid $color-text-light;
-    }
+}
+
+.btn-light:hover {
+    border: 1px solid $color-text-light;
 }
 
 .btn-dark {
     background-color: $color-background-dark !important;
-    &:hover,
-    &:focus {
-        background-color: $color-background-light !important;
-    }
 }
 
 .btn-light {
@@ -169,6 +166,7 @@ textarea {
 }
 
 .social-links {
+    position: absolute;
     $icon-size: 64px;
     a {
         display: inline-block;

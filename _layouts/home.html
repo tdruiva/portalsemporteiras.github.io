@@ -27,13 +27,9 @@
         <li data-menuanchor="saiba_mais"><a href="#saiba_mais">Saiba Mais</a></li>
     </ul>
 
-    <div class="social-links animated">
-        {% if site.author.email %}
-            <a class="btn-light ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
-        {% endif %}
-      <a class="btn-light ico-instagram" href="https://instagram.com/psp" rel="me" target="_blank" title="Instagram"></a>
-    </div>
     <div id="section0" class="section" data-name="psp">
+        {% include contact.html %}
+
         <div class="logo">
             <img src="{{ site.baseurl }}/assets/images/logo.png" with="auto" height="auto" alt="logo" class="imglogo" />
         </div>
