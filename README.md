@@ -1,4 +1,4 @@
-!(PSP)(/assets/images/logo.png)
+![PSP](/assets/images/logo.png)
 
 Esse site foi baseado no tamplate do [Yizeng](https://yizeng.github.io/jekyll-theme-simple-texture/)
 
