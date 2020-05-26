@@ -10,10 +10,10 @@ Para editar esse site siga as instrunções
 
 2. Configure o Ruby para seu user
 
-`echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
-`echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
-`echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
-`source ~/.bashrc`
+       echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+       echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+       echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+       source ~/.bashrc
 
 3. Instale o Jekyll
 
