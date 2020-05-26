@@ -25,7 +25,7 @@ Para editar esse site siga as instrunções
 
 4. Para outros sistemas operacionais visite o [Site do jekyll](https://jekyllrb.com/docs/installation/)
 
-## Configurando e editando o site 
+## Configurando o modo desenvolvedor do site
 
 1. Clone o repositorio do site na sua pasta de preferencia no seu computador:
 
@@ -42,6 +42,18 @@ Para editar esse site siga as instrunções
 4. Entre no site hospedado localmente, em um navegador entre no endereço:
 
 http://127.0.0.1:4000
+
+## Editando o Site
+
+1. Na pasta que você clonou o site deve haver uma pasta chamada `portalsemporteiras.github.io` essa pasta contem todos os arquivos do nosso site.
+
+2. Utilize seu gerenciador de codigo favorito para editar os arquivos do site, ou simplesmente edite eles em seu editor tipo gedit ou bloco de notas.
+
+3. A pagina inicial está em html e deve ser editada no arquivo que está no endereço `_layouts/home.html`
+
+4. As configurações de estilo estão na pasta `_sass` e na pasta `assets/stylesheets` e deve haver alguma diferença entre elas, a @tdruiva pode nos ensinar e/ou compartilhar um material legal sobre isso.
+
+5. As páginas estáticas da secção saiba mais está na `saibamais/` e devem ser editadas no estilo [markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
 
 ## Contribuição
 
