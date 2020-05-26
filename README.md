@@ -1,4 +1,4 @@
-![PSP](/assets/images/logo.png)
+<center>![PSP](/assets/images/logo.png)</center>
 
 Esse site foi baseado no tamplate do [Yizeng](https://yizeng.github.io/jekyll-theme-simple-texture/)
 
@@ -8,7 +8,7 @@ Para editar esse site siga as instrunções
 
 1. Abra um terminal e instale o ruby e suas dependencias       
 
-      sudo apt-get install ruby-full build-essential zlib1g-dev
+       sudo apt-get install ruby-full build-essential zlib1g-dev
 
 2. Configure o Ruby para seu user
 
