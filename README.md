@@ -1,95 +1,48 @@
-# Simple Texture Jekyll Theme
+Esse site foi baseado no tamplate do [Yizeng](https://yizeng.github.io/jekyll-theme-simple-texture/)
 
-![Gem Version](https://img.shields.io/gem/v/jekyll-theme-simple-texture.svg)
+Para editar esse site siga as instrunções
 
-Simple Texture is a gem-based responsive simple texture styled Jekyll theme for [Jekyll][Jekyll] 3.3 or above,
-which can also be forked as a boilerplate for older versions of Jekyll.
+## Instalar o Jekyll no ubuntu
 
-## Demo
+1. Instale o ruby e suas dependencias 
 
-- Starter-kit demo:
-<https://yizeng.github.io/jekyll-theme-simple-texture/>
-- My own personal blog: <https://yizeng.me/blog>
+`sudo apt-get install ruby-full build-essential zlib1g-dev`
 
-![Screenshot - Home](assets/images/screenshots/homepage.png)
+2. Configure o Ruby para seu user
 
-![Screenshot - Blog](assets/images/screenshots/post.png)
+`echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
+`echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
+`echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
+`source ~/.bashrc`
 
-## Installation
+3. Instale o Jekyll
 
-### As a Jekyll theme gem (Jekyll >= 3.3)
+`gem install jekyll bundler`
 
-If you are creating a new website or blog,
-please follow the commands below first:
+4. Para outros sistemas operacionais visite o [Site do jekyll](https://jekyllrb.com/docs/installation/)
 
-1. Install Jekyll and [Bundler][Bundler]
+## Configurando e editando o site 
 
-       gem install jekyll bundler
+1. Clone o repositorio do site na sua pasta de preferencia no seu computador:
 
-2. Create a new Jekyll app
+       git clone https://github.com/portalsemporteiras/portalsemporteiras.github.io.git
 
-       jekyll new jekyllapp
+2. Para instalar as dependencias do site faça
 
-3. Enter the new directory
+ `bundle install`
 
-       cd jekyllapp
+3. Rode o jekyll
 
-4. Then follow the instructions below like existing Jekyll app.
+ `bundle exec jekyll serve`
 
-Then for existing Jekyll apps,
+4. Entre no site hospedado localmente, em um navegador entre no endereço:
 
-1. Install Bundler if haven't done so.
+http://127.0.0.1:4000
 
-       gem install bundler
+## Contribuição
 
-1. Remove Jekyll auto-generated default pages `404.html`, `about.markdown` and `index.markdown` or any your custom layouts or existing theme files.
+Para contribuir com esse site e/ou reportar bugs acesse [issues](https://github.com/portalsemporteiras/portalsemporteiras.github.io/issues)
 
-1. Remove the existing `Gemfile.lock`.
-
-1. Download the respository [here](https://github.com/yizeng/jekyll-theme-simple-texture/archive/master.zip)
-and locate `starter-kit` folder,
-or download `starter-kit` folder directly [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/yizeng/jekyll-theme-simple-texture/tree/master/starter-kit).
-
-1. Put everything in the `starter-kit` in the root directory,
-i.e. `jekyllapp` in this example.
-
-1. Run `bundle install` to install dependencies.
-
-1. Run Jekyll with `bundle exec jekyll serve`
-
-1. Hack away at <http://localhost:4000>!
-
-### As a fork
-
-1. Fork the repo [here](https://github.com/yizeng/jekyll-theme-simple-texture#fork-destination-box)
-
-2. Clone the repo just forked.
-
-       git clone git@github.com:[YOUR_USERNAME]/jekyll-theme-simple-texture.git
-
-3. Delete `starter-kit` folder and `jekyll-theme-simple-texture.gemspec` file (they're for people installing via gem)
-
-4. Install Bundler if haven't done so.
-
-       gem install bundler
-
-5. Update the `Gemfile` to look like the following:
-
-   ```ruby
-   source "https://rubygems.org"
-
-   gem "github-pages", group: :jekyll_plugins
-   ```
-
-6. Run `bundle install` to install dependencies.
-
-7. Run Jekyll with `bundle exec jekyll serve`
-
-8. Hack away at <http://localhost:4000>!
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at <https://github.com/yizeng/jekyll-theme-simple-texture>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Credits
 
