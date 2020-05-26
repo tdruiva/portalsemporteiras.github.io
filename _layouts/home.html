@@ -71,10 +71,10 @@
         <div class="animated conteudo">
 
             {% for projeto in site.data.projetos %}
-                <div>
+                <a href="{{ projeto.url}}">
                     <img src="{{ site.baseurl }}/assets/images/{{ projeto.imagem }}" alt="Imagem convidando a conhecer mais sobre {{ projeto.nome }}" class="imglogo" />
-                    <h4><a href="{{ projeto.url}}">{{ projeto.nome }}</a></h4>
-                </div>
+                    <h4>{{ projeto.nome }}</h4>
+                </a>
             {% endfor %}
         </div>
       </div>
