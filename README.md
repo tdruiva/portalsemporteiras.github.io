@@ -1,4 +1,6 @@
-<center>![PSP](/assets/images/logo.png)</center>
+<p align="center">
+  <img src="/assets/images/logo.png">
+</p>
 
 Esse site foi baseado no tamplate do [Yizeng](https://yizeng.github.io/jekyll-theme-simple-texture/)
 
