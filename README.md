@@ -1,12 +1,14 @@
+[{{ site.baseurl }}/assets/images/logo.png]
+
 Esse site foi baseado no tamplate do [Yizeng](https://yizeng.github.io/jekyll-theme-simple-texture/)
 
 Para editar esse site siga as instrunções
 
 ## Instalar o Jekyll no ubuntu
 
-1. Instale o ruby e suas dependencias 
+1. Abra um terminal e instale o ruby e suas dependencias       
 
-`sudo apt-get install ruby-full build-essential zlib1g-dev`
+      sudo apt-get install ruby-full build-essential zlib1g-dev
 
 2. Configure o Ruby para seu user
 
@@ -17,7 +19,7 @@ Para editar esse site siga as instrunções
 
 3. Instale o Jekyll
 
-`gem install jekyll bundler`
+       gem install jekyll bundler
 
 4. Para outros sistemas operacionais visite o [Site do jekyll](https://jekyllrb.com/docs/installation/)
 
@@ -29,11 +31,11 @@ Para editar esse site siga as instrunções
 
 2. Para instalar as dependencias do site faça
 
- `bundle install`
+       bundle install
 
 3. Rode o jekyll
 
- `bundle exec jekyll serve`
+       bundle exec jekyll serve
 
 4. Entre no site hospedado localmente, em um navegador entre no endereço:
 
