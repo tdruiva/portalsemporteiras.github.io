@@ -7,14 +7,13 @@
 
   .conteudo {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
 
   .sobre {
     padding: 10px;
     background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
-    display: block ruby;
   }
 }
 
