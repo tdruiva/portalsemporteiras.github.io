@@ -1,12 +1,18 @@
 - nome: Projeto Nós por Nós
   imagem: logo.png
+  url: /saibamais/nospornos
 - nome: Rádio PSP
+  url: /saibamais/radio
   imagem: logo.png
 - nome: Newsletter 2019
   imagem: logo.png
+  url: https://www.coolab.org/wp-content/uploads/2020/05/Jornal-Anual-edição-1-dezembro-_20191.pdf
 - nome: Rede Local
   imagem: logo.png
-- nome: Insfraestrutura
+  url: /saibamais/redelocal
+- nome: Insfraestrutura da Rede
   imagem: logo.png
+  url: /saibamais/infraestrutura
 - nome: Estatuto
   imagem: logo.png
+  url: /saibamais/estatuto

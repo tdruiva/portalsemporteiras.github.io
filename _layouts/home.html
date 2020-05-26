@@ -73,7 +73,7 @@
             {% for projeto in site.data.projetos %}
                 <div>
                     <img src="{{ site.baseurl }}/assets/images/{{ projeto.imagem }}" alt="Imagem convidando a conhecer mais sobre {{ projeto.nome }}" class="imglogo" />
-                    <h4><a href="{{ projeto.url}}">Newsletter 2019</a></h4>
+                    <h4><a href="{{ projeto.url}}">{{ projeto.nome }}</a></h4>
                 </div>
             {% endfor %}
         </div>
