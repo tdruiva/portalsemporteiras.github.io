@@ -5,6 +5,10 @@
 #section1 {
   padding: 0 40px;
 
+  h1 {
+    color: rgb(245, 209, 94) ;
+  }
+  
   .conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,7 +17,13 @@
 
   .sobre {
     padding: 10px;
-    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
+    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #150E1F;
+    
+    p {
+      color: rgb(209, 174, 57) 
+      
+    }
+
   }
 }
 
