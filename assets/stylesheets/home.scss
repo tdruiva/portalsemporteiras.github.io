@@ -8,7 +8,7 @@
   h1 {
     color: rgb(245, 209, 94) ;
   }
-  
+
   .conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,10 +18,10 @@
   .sobre {
     padding: 10px;
     background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #150E1F;
-    
+
     p {
-      color: rgb(209, 174, 57) 
-      
+      color: rgb(209, 174, 57)
+
     }
 
   }
@@ -30,9 +30,14 @@
 #section2 {
   .conteudo {
     display: flex;
+    align-items: baseline;
 
     div, img {
       width: 100%;
+    }
+
+    h3 {
+      font-size: 1.5em;
     }
   }
 }
