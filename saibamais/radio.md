@@ -56,9 +56,9 @@ allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></if
           {{ site.sem_suporte }}
       </audio>
     </figure>
-
-    <img src="{{ site.baseurl }}/assets/images/radio/ondas_no_ar.jpg">
-    <img src="{{ site.baseurl }}/assets/images/radio/npn_1.jpg">
-    <img src="{{ site.baseurl }}/assets/images/radio/npn_2.png">
   </div>
 </div>
+
+<img src="{{ site.baseurl }}/assets/images/radio/ondas_no_ar.jpg">
+<img src="{{ site.baseurl }}/assets/images/radio/npn_1.jpg">
+<img src="{{ site.baseurl }}/assets/images/radio/npn_2.png">
