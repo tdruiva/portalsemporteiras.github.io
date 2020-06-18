@@ -5,11 +5,12 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="{{ site.lang }}">
-<!--<![endif]-->
+<!-- <![endif]-->
 
 <head>
     {% include common/meta.html %}
     <link href='{{ site.baseurl }}/assets/stylesheets/blog.css' rel="stylesheet" type="text/css">
+    <link href='{{ site.baseurl }}/assets/stylesheets/saibamais.css' rel="stylesheet" type="text/css">
     {% include common/libraries.html %}
     {% if site.google_tag_manager %}
         {% include common/gtm-head.html %}
@@ -21,8 +22,8 @@
         {% include common/gtm-body.html %}
     {% endif %}
 
-    <!-- {% include common/notices.html %} -->
-    <!-- {% include blog/overlay.html %} -->
+    {% include common/notices.html %}
+    {% include blog/overlay.html %}
 
     <div id="page" class="hentry">
         {% include blog/header-2.html %}
@@ -31,7 +32,7 @@
             <div class="unit-body">
                 <div class="unit-inner unit-body-inner">
                     <div class="entry-content">
-                        
+
                         <article class="unit-article layout-page">
                             <div class="unit-inner unit-article-inner">
                                 <div class="content">
@@ -42,13 +43,13 @@
                                             </div>
                                         </div>
                                     </header>
-                        
+
                                     <div class="bd article-content">
                                         <div class="entry-content">
                                             {{ content }}
                                         </div>
                                     </div>
-                        
+
                                     <footer class="unit-foot">
                                         <div class="unit-inner unit-foot-inner">
                                             <p>
