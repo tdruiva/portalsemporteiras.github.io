@@ -3,7 +3,8 @@
 
 .conteudo {
     display: flex;
-    div[first-child] {
+
+    :first-child {
         padding-right: 10%;
     }
 
