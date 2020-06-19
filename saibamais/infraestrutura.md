@@ -19,33 +19,3 @@ A Rede Portal sem Porteiras, é uma rede comunitária em meio rural no Brasil, �
     </div>
             {% endfor %}
 </section>
-
-<!-- <section class="container wrap">
-    <div class="imgfull">
-        <img src="{{ site.baseurl }}/assets/images/mapa/arcanjo.png">
-    </div>
-    <div class="imgfull">
-        <img src="{{ site.baseurl }}/assets/images/mapa/braga.png">
-        </div>
-    <div class="imgfull">
-        <img src="{{ site.baseurl }}/assets/images/mapa/cruzeiro.png">
-    </div>
-    <div class="imgfull"> 
-        <img src="{{ site.baseurl }}/assets/images/mapa/entrada.png">
-    </div>
-    <div class="imgfull"> 
-        <img src="{{ site.baseurl }}/assets/images/mapa/fabianos.png">
-    </div>	
-    <div class="imgfull">
-        <img src="{{ site.baseurl }}/assets/images/mapa/gruta.png">
-    </div>
-    <div class="imgfull">
-        <img src="{{ site.baseurl }}/assets/images/mapa/prado.png">
-    </div>
-        <div class="imgfull">
-        <img src="{{ site.baseurl }}/assets/images/mapa/quaresmeiras.png">
-    </div>
-        <div class="imgfull">
-        <img src="{{ site.baseurl }}/assets/images/mapa/sede.png">
-    </div>
-</section> -->
