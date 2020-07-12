@@ -49,6 +49,15 @@ allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></if
     </figure>
 
     <figure class="audio">
+      <figcaption>Podcast Nós por Nós Ep 3 - Sonhos</figcaption>
+      <audio
+        controls="controls"
+        src="{{ site.baseurl }}/assets/musicas/npn_ep3_sonhos.mp3">
+          {{ site.sem_suporte }}
+      </audio>
+    </figure>
+
+    <figure class="audio">
       <figcaption>Música tema - Nós por Nós</figcaption>
       <audio
         controls="controls"
