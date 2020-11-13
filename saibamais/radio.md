@@ -4,8 +4,13 @@ layout: saibamais
 
 # Rádio PSP
 
-<iframe src="https://radios.liberaturadio.org/semporteiras.m3u" frameborder="0"
-allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>
+<div>
+      <audio
+        controls="controls"
+        src="https://radios.liberaturadio.org/semporteiras">
+          {{ site.sem_suporte }}
+      </audio>
+</div>
 
 <div class="conteudo">
   <div>
