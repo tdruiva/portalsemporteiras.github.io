@@ -31,7 +31,7 @@ layout: saibamais
       <audio
         controls="controls"
         src="{{ site.baseurl }}/assets/musicas/ondas_no_ar_programa_1.mp3">
-          {{ site.sem_suporte }}
+          {{ site.unsupported }}
       </audio>
     </figure>
 
@@ -40,7 +40,7 @@ layout: saibamais
       <audio
         controls="controls"
         src="{{ site.baseurl }}/assets/musicas/npn_ep1_protecao.mp4">
-          {{ site.sem_suporte }}
+          {{ site.unsupported }}
       </audio>
     </figure>
 
@@ -49,7 +49,7 @@ layout: saibamais
       <audio
         controls="controls"
         src="{{ site.baseurl }}/assets/musicas/npn_ep2_virus.mp3">
-          {{ site.sem_suporte }}
+          {{ site.unsupported }}
       </audio>
     </figure>
 
@@ -58,7 +58,7 @@ layout: saibamais
       <audio
         controls="controls"
         src="{{ site.baseurl }}/assets/musicas/npn_ep3_sonhos.mp3">
-          {{ site.sem_suporte }}
+          {{ site.unsupported }}
       </audio>
     </figure>
 
@@ -67,7 +67,7 @@ layout: saibamais
       <audio
         controls="controls"
         src="{{ site.baseurl }}/assets/musicas/musica_npn.mp3">
-          {{ site.sem_suporte }}
+          {{ site.unsupported }}
       </audio>
     </figure>
   </div>
