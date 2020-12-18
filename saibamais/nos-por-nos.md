@@ -4,6 +4,7 @@ layout: nos-por-nos
 <div class="mapa">
 
   <h1>Nós Por Nós</h1>
+  <h2>Nodes That Bound</h2>
 
   <div class="texto">
     <p>
@@ -20,11 +21,16 @@ A gente sentia muita dificuldade de que mais mulheres estivessem participando da
       O conhecimento nunca é genérico, só existe aplicado ao território. Entendemos que é a partir da intimidade com esse espaço que podemos gerar e gerir essa rede da melhor forma. Para além da conexão virtual, buscamos manter as mulheres conectadas entre si, aprender mais sobre o território que habitamos e manifestar a tecnologia como prática.
     </p>
   </div>
-  <h1>Nodes That Bound</h1>
 
   <div class="anos">
-    <a href="{{ site.baseurl }}/nos-por-nos/2019" class="ano-2019">2019</a>
+    <a href="{{ site.baseurl }}/nos-por-nos/2019" class="ano-2019">
+      <span>2019</span>
+      <img src="{{ site.baseurl }}/assets/images/saibamais/nos-por-nos/2019.jpg"/>
+    </a>
 
-    <a href="{{ site.baseurl }}/nos-por-nos/2020" class="ano-2020">2020</a>
+    <a href="{{ site.baseurl }}/nos-por-nos/2020" class="ano-2020">
+      <span>2020</span>
+      <img src="{{ site.baseurl }}/assets/images/saibamais/nos-por-nos/2019.jpg"/>
+    </a>
   </div>
 </div>

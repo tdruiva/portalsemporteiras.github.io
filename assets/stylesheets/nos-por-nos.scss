@@ -4,6 +4,7 @@
 .mapa {
     background-image: url('../images/saibamais/nos-por-nos/mapa.svg');
     display: flex;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -12,14 +13,21 @@
 .anos {
 
     a {
-        width: 40%;
+        width: 47%;
+        display: inline-block;
+        position: relative;
+
+        span {
+          position: absolute;
+          margin-left: 40%;
+          bottom: 20%;
+          font-size: x-large;
+        }
+    }
+
+    img {
+        border-radius: 10px;
+        border: initial;
     }
 }
 
-.ano-2019 {
-    background-image: url('../images/saibamais/nos-por-nos/2019.jpg');
-}
-
-.ano-2020 {
-    background-image: url('../images/saibamais/nos-por-nos/triade.jpeg');
-}
