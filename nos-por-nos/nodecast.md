@@ -6,29 +6,6 @@ layout: nos-por-nos
 FOTO
 
 
-<figure class="audio">
-  <figcaption>Nodecast Episódio 1 - Proteção</figcaption>
-  <audio
-    controls="controls"
-    src="{{ site.baseurl }}/assets/musicas/npn_ep1_protecao.mp4">
-      {{ site.unsupported }}
-  </audio>
-</figure>
-
-<figure class="audio">
-  <figcaption>Nodecast Episódio 2 - Vírus</figcaption>
-  <audio
-    controls="controls"
-    src="{{ site.baseurl }}/assets/musicas/npn_ep2_virus.mp3">
-      {{ site.unsupported }}
-  </audio>
-</figure>
-
-<figure class="audio">
-  <figcaption>Nodecast Episódio 3 - Sonhos</figcaption>
-  <audio
-    controls="controls"
-    src="{{ site.baseurl }}/assets/musicas/npn_ep3_sonhos.mp3">
-      {{ site.unsupported }}
-  </audio>
-</figure>
+<a href="/nos-por-nos/nodecast-1">NodeCast Episódio 1 - Proteção</a>
+<a href="/nos-por-nos/nodecast-2">NodeCast Episódio 2 - Vírus</a>
+<a href="/nos-por-nos/nodecast-3">NodeCast Episódio 3 - Sonhos</a>
