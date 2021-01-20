@@ -1,13 +1,16 @@
 ---
 ---
 
-.mapa {
-    background-image: url('../images/saibamais/nos-por-nos/mapa.svg');
+.body{
+    background-image: url('../images/nos-por-nos/fundo.jpg');
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: bottom;
+}
+
+.body .unit-body {
+  background: initial;
 }
 
 .anos {
