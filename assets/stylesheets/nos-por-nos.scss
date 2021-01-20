@@ -2,35 +2,49 @@
 ---
 
 .body{
-    background-image: url('../images/nos-por-nos/fundo.jpg');
-    display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-position: bottom;
+  background-image: url('../images/nos-por-nos/fundo.jpg');
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .body .unit-body {
   background: initial;
 }
 
+h1 {
+  color: blueviolet;
+  font-size: 2.725em;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
 .anos {
+  a {
+    width: 47%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
 
-    a {
-        width: 47%;
-        display: inline-block;
-        position: relative;
-
-        span {
-          position: absolute;
-          margin-left: 40%;
-          bottom: 20%;
-          font-size: x-large;
-        }
+    span {
+      position: absolute;
+      margin-left: 30%;
+      bottom: 20%;
+      font-size: 3em;
+      background-color: rgba(255, 100, 0, 0.6);
+      padding: 10px;
     }
+  }
 
-    img {
-        border-radius: 10px;
-        border: initial;
-    }
+  img,
+  a,
+  span {
+    border-radius: 10px;
+    border: initial;
+  }
 }
 

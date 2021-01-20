@@ -3,7 +3,6 @@ layout: nos-por-nos
 title: "Nós por Nós"
 ---
 <div>
-
   <h1>Nós Por Nós</h1>
   <h2>Nodes That Bound</h2>
 
@@ -26,7 +25,7 @@ A gente sentia muita dificuldade de que mais mulheres estivessem participando da
   <div class="anos">
     <a href="{{ site.baseurl }}/nos-por-nos/2019" class="ano-2019">
       <span>2019</span>
-      <img src="{{ site.baseurl }}/assets/images/nos-por-nos/2019.jpg"/>
+      <img src="{{ site.baseurl }}/assets/images/nos-por-nos/thumbnail-2019.jpg"/>
     </a>
 
     <a href="{{ site.baseurl }}/nos-por-nos/2020" class="ano-2020">
