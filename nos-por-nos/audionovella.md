@@ -1,5 +1,7 @@
 ---
 layout: nos-por-nos
+title: "Novella"
+permalink: /nos-por-nos/novella
 ---
 
 #Audio Novella
