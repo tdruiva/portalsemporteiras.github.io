@@ -2,18 +2,18 @@
 layout: nos-por-nos
 title: "Nós por Nós"
 ---
-<div>
-  <h1>Nós Por Nós</h1>
-  <h2>Nodes That Bound</h2>
+<h1>Nós Por Nós</h1>
+<h2>Nodes That Bound</h2>
 
+<div class="conteudo">
   <div class="texto">
-    <p>
+    <p class="laranja">
       O Nós por Nós brota da necessidade de ocupar o espaço da rede Portal sem Porteiras com narrativas feministas.
     </p>
-    <p>
+    <p class="verde-claro">
 A gente sentia muita dificuldade de que mais mulheres estivessem participando da implementação de uma rede comunitária no bairro. E mais ainda. Sentíamos falta de um espaço seguro para o aprendizado compartilhado e estreitamento dos laços.
     </p>
-    <p>
+    <p class="verde">
       Sabemos que as máquinas e a técnica são domínios historicamente preenchidos pela presença masculina. Sentíamos urgência em abrir nossas próprias trilhas até a fonte desses sabers. Através de encontros circulares aliados a tutorias sobre tecnologia propusemos a nós mesmas um tecer coletivo de compreensão. A criação de um chão comum.
     </p>
 
@@ -23,14 +23,14 @@ A gente sentia muita dificuldade de que mais mulheres estivessem participando da
   </div>
 
   <div class="anos">
+    <a href="{{ site.baseurl }}/nos-por-nos/2020" class="ano-2020">
+      <span>2020</span>
+      <img src="{{ site.baseurl }}/assets/images/nos-por-nos/thumbnail-2020.jpg"/>
+    </a>
+
     <a href="{{ site.baseurl }}/nos-por-nos/2019" class="ano-2019">
       <span>2019</span>
       <img src="{{ site.baseurl }}/assets/images/nos-por-nos/thumbnail-2019.jpg"/>
-    </a>
-
-    <a href="{{ site.baseurl }}/nos-por-nos/2020" class="ano-2020">
-      <span>2020</span>
-      <img src="{{ site.baseurl }}/assets/images/nos-por-nos/2019.jpg"/>
     </a>
   </div>
 </div>

@@ -3,14 +3,30 @@
 
 .body{
   background-image: url('../images/nos-por-nos/fundo.jpg');
-  display: flex;
-  flex-direction: column;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
+
+  @media only screen and (max-width: 540px) {
+    background-color: #62c3e6;
+  }
 }
+
 
 .body .unit-body {
   background: initial;
+}
+
+.conteudo {
+  display: flex;
+
+  @media only screen and (min-width: 1200px) {
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 540px) {
+    flex-flow: column;
+  }
 }
 
 h1 {
@@ -23,17 +39,42 @@ h2 {
   text-align: center;
 }
 
+.texto {
+  @media only screen and (min-width: 1200px) {
+    flex-basis: 65%;
+  }
+
+  p {
+    padding: 10px;
+    border: black solid;
+    background-color: #427c97;
+  }
+
+  .laranja {
+    background-color: #de6840;
+  }
+
+  .verde {
+    background-color: #22a42a;
+  }
+
+  .verde-claro {
+    background-color: #c6f221;
+  }
+}
+
 .anos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   a {
-    width: 47%;
-    display: inline-block;
     position: relative;
     text-align: center;
 
     span {
       position: absolute;
-      margin-left: 30%;
-      bottom: 20%;
+      bottom: 10%;
       font-size: 3em;
       background-color: rgba(255, 100, 0, 0.6);
       padding: 10px;
@@ -48,3 +89,6 @@ h2 {
   }
 }
 
+.ano-2019 span {
+  left: 30%;
+}
