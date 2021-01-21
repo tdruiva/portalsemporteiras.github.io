@@ -12,9 +12,36 @@
   }
 }
 
-
 .body .unit-body {
   background: initial;
+}
+
+.nos{
+  text-align: center;
+
+   span {
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+    span {
+      padding-top: 15px;
+    }
+  }
+
+  img {
+    margin: 0;
+    background-color: white;
+    width: 80px;
+    padding: 0 15px 0;
+  }
 }
 
 .conteudo {
@@ -91,4 +118,8 @@ h2 {
 
 .ano-2019 span {
   left: 30%;
+}
+
+.gotop {
+  background-color: rgba(255, 100, 0, 0.6);
 }
