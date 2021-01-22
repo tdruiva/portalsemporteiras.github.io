@@ -5,7 +5,7 @@ title: "Nós por Nós"
 <div class="nos">
   <h1><span>Nós Por Nós</span></h1>
   <img alt="Imagem do desenho de um nó, símbolo do projeto Nós por Nós" src="{{ site.baseurl }}/assets/images/nos-por-nos/nozinho.jpg"/>
-  <h2><span>Nodes That Bound</span></h2>
+  <h2><span>Nodes That Bond</span></h2>
 </div>
 
 <div class="conteudo">
