@@ -1,0 +1,137 @@
+---
+---
+$azul-escuro: #005776;
+$azul-claro: #c9f1fe;
+$violeta: #760057;
+$verde: #577600;
+
+@font-face {
+  font-family: "Yaldevi Medium";
+  src: url("../fonts/YaldeviColombo-Medium.ttf");
+}
+
+* {
+  font-family: "Yaldevi Medium", "Bitter";
+}
+
+.body .unit-body {
+  background-image: url('../images/nos-por-nos/fundo.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+
+  @media only screen and (max-width: 540px) {
+    background-color: #62c3e6;
+    background-position: left bottom;
+    background-image: initial;
+  }
+}
+
+.nos{
+  text-align: center;
+
+   span {
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+    span {
+      padding-top: 15px;
+    }
+  }
+
+  img {
+    margin: 0;
+    background-color: white;
+    width: 80px;
+    padding: 0 15px 0;
+  }
+}
+
+.conteudo {
+  display: flex;
+
+  @media only screen and (min-width: 1000px) {
+    justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 540px) {
+    flex-flow: column;
+  }
+}
+
+h1 {
+  color: $azul-escuro;
+  font-size: 2.725em;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.texto {
+  @media only screen and (min-width: 1000px) {
+    flex-basis: 50%;
+  }
+
+  p {
+    padding: 10px;
+    border: black solid;
+    background-color: #427c97;
+  }
+
+  .laranja {
+    background-color: #de6840;
+  }
+
+  .verde {
+    background-color: $verde;
+  }
+
+  .verde-claro {
+    background-color: #c6f221;
+  }
+}
+
+.anos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  a {
+    position: relative;
+    text-align: center;
+
+    @media only screen and (max-width: 540px) {
+      margin-bottom: 20px;
+    }
+
+    span {
+      position: absolute;
+      bottom: 0;
+      display: block;
+      font-size: 3em;
+      background-color: rgba(255, 100, 0, 1);
+      padding: 10px;
+      width: 93%;
+    }
+  }
+
+  img,
+  a,
+  span {
+    border-radius: 10px;
+    border: initial;
+  }
+}
+
+.gotop {
+  background-color: rgba(255, 100, 0, 0.6);
+}
