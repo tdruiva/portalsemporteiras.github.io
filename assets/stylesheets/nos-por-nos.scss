@@ -39,13 +39,6 @@ $verde: #577600;
     margin-bottom: 0;
   }
 
-  h2 {
-    margin-top: 0;
-    span {
-      padding-top: 15px;
-    }
-  }
-
   img {
     margin: 0;
     background-color: white;
@@ -71,8 +64,7 @@ h1 {
   font-size: 2.725em;
 }
 
-h1,
-h2 {
+h1 {
   text-align: center;
 }
 
@@ -84,18 +76,18 @@ h2 {
   p {
     padding: 10px;
     border: black solid;
-    background-color: #427c97;
+    background-color: #427c97
   }
 
-  .laranja {
+  p:first-child {
     background-color: #de6840;
   }
 
-  .verde {
+  p:nth-child(2) {
     background-color: $verde;
   }
 
-  .verde-claro {
+  p:last-child {
     background-color: #c6f221;
   }
 }
