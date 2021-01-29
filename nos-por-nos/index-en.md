@@ -4,10 +4,10 @@ title: "Node that Bond"
 permalink: /nos-por-nos/
 lang: en
 ---
-  O Nós por Nós brota da necessidade de ocupar o espaço da rede Portal sem Porteiras com narrativas feministas.
+Nodes that Bond sprouts from the need to occupy the virtual territory with feminist narratives.
 
-  A gente sentia muita dificuldade de que mais mulheres estivessem participando da implementação de uma rede comunitária no bairro. E mais ainda. Sentíamos falta de um espaço seguro para o aprendizado compartilhado e estreitamento dos laços.
+We felt the lack of a safe space for shared learning and found it very difficult to get more women to participate in the implementation of a community network in the neighborhood.
 
-  Sabemos que as máquinas e a técnica são domínios historicamente preenchidos pela presença masculina. Sentíamos urgência em abrir nossas próprias trilhas até a fonte desses sabers. Através de encontros circulares aliados a tutorias sobre tecnologia propusemos a nós mesmas um tecer coletivo de compreensão. A criação de um chão comum.
+As machines and technique are domains historically occupied by the male presence, we as women felt the urgency to open our own trails to the source of these knowledges. During circular meetings allied to basic technology tutorials we began to weave collective knowledge through the creation of common ground.
 
-  O conhecimento nunca é genérico, só existe aplicado ao território. Entendemos que é a partir da intimidade com esse espaço que podemos gerar e gerir essa rede da melhor forma. Para além da conexão virtual, buscamos manter as mulheres conectadas entre si, aprender mais sobre o território que habitamos e manifestar a tecnologia como prática.
+Knowledge is never generic, it only ever exists applied to territory and context. This understanding is very important to help us generate and manage our autonomous network in the best way. Beyond the virtual connection, we seek to keep women connected to each other, learn more about the territory we inhabit and manifest technology as a practice.
