@@ -1,0 +1,16 @@
+---
+layout: nos-por-nos/base
+---
+{% assign nos-por-nos = site.data[page.lang].nos-por-nos %}
+
+<div class="nos ano">
+  <h1><span>2020</span></h1>
+  <img alt="{{ nos-por-nos.descricao-no }}" src="{{ site.baseurl }}/assets/images/nos-por-nos/nozinho.jpg"/>
+</div>
+
+<img alt="{{ nos-por-nos.descricao-no }}" src="{{ site.baseurl }}/assets/images/nos-por-nos/capa-2020.png"/>
+
+<div class="texto">
+  {{ content }}
+</div>
+
