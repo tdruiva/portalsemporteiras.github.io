@@ -38,6 +38,11 @@
                                 <div class="content">
                                   <div class="bd article-content">
                                     <div class="entry-content">
+                                      <div class="idioma">
+                                        <a href=" {{ site.url | append: '/en' | append: page.url }}" title="Link to access the page content in English">EN</a>
+                                        |
+                                        <a href=" {{ site.url | append: page.url }}" title="Link para acessar o conteúdo da página em Português">PT</a>
+                                      </div>
                                       {{ content }}
                                     </div>
                                   </div>
