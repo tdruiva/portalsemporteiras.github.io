@@ -27,43 +27,33 @@
 
     <div id="page" class="hentry">
         {% include blog/header-2.html %}
-
         <div class="body animated fadeInDown" role="main">
-            <div class="unit-body">
-                <div class="unit-inner unit-body-inner">
-                    <div class="entry-content">
-
-                        <article class="unit-article layout-page">
-                            <div class="unit-inner unit-article-inner">
-                                <div class="content">
-                                  <div class="bd article-content">
-                                    <div class="entry-content">
-                                      <div class="idioma">
-                                        <a href=" {{ site.url | append: '/en' | append: page.url }}" title="Link to access the page content in English">EN</a>
-                                        |
-                                        <a href=" {{ site.url | append: page.url }}" title="Link para acessar o conteúdo da página em Português">PT</a>
-                                      </div>
-                                      {{ content }}
-                                    </div>
-                                  </div>
-
-                                    <footer class="unit-foot">
-                                        <div class="unit-inner unit-foot-inner">
-                                            <p>
-                                                <a class="internal gotop" href="#page">{{ site.data.i18n[page.lang].back_to_top }}</a>
-                                            </p>
-                                        </div>
-                                    </footer>
-                                </div>
-                            </div>
-                        </article>
+          <div class="unit-body">
+            <div class="unit-inner unit-body-inner">
+              <div class="entry-content">
+                <article class="unit-article layout-page">
+                  <div class="content">
+                    <div class="idioma">
+                      <a href=" {{ site.url | append: '/en' | append: page.url }}" title="Link to access the page content in English">EN</a>
+                      |
+                      <a href=" {{ site.url | append: page.url }}" title="Link para acessar o conteúdo da página em Português">PT</a>
                     </div>
-                </div>
+                    {{ content }}
+                  </div>
+                  <footer class="unit-foot">
+                    <div class="unit-inner unit-foot-inner">
+                      <p>
+                      <a class="internal gotop" href="#page">{{ site.data.i18n[page.lang].back_to_top }}</a>
+                      </p>
+                    </div>
+                  </footer>
+                </article>
+              </div>
             </div>
+          </div>
         </div>
         {% include blog/footer.html %}
     </div>
-
     {% include blog/scripts.html %}
 </body>
 
