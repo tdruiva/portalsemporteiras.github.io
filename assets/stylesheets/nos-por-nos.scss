@@ -36,12 +36,14 @@ $verde: #577600;
   font-size: 1.5em;
 }
 
-.nos{
+.cabecalho{
   text-align: center;
 
    span {
     background-color: white;
     padding: 5px;
+    min-width: 20%;
+    display: inline-block;
     border-radius: 15px;
   }
 
@@ -49,18 +51,16 @@ $verde: #577600;
     margin-bottom: 0;
   }
 
-  img {
-    margin: 0;
-    background-color: white;
-    width: 80px;
-    padding: 0 15px 0;
+  a {
+    background-image: url('../images/nos-por-nos/nozinho-amarelo.png');
+    background-repeat: no-repeat;
+    border: none;
+    min-width: 65px;
+    min-height: 40px;
+    display: inline-block;
   }
 }
 
-.ano span {
-  width: 20%;
-  display: inline-block;
-}
 .conteudo {
   display: flex;
 
