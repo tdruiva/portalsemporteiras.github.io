@@ -20,6 +20,7 @@ $verde: #577600;
   background-position: right;
   background-color: #62c3e6;
   background-repeat: no-repeat;
+  background-size: cover;
 
   @media only screen and (max-width: 540px) {
     background-image: initial;
@@ -128,6 +129,11 @@ h1 {
   position: absolute;
 }
 
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
 .anos {
   display: flex;
   flex-direction: column;
@@ -159,8 +165,6 @@ h1 {
     border: initial;
   }
 }
-
-
 
 .gotop {
   background-color: $laranja;
