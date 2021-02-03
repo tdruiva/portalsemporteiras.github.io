@@ -16,7 +16,7 @@ Como por exemplo:
 Os áudios que recebemos foram tão profundos e delicados. Para nós foi algo muito sagrado. E para elas, se escutar depois dentro do programa foi potente.
 Inicialmente a gente queria que esse podcast fosse algo escutado apenas pelas mulheres. Aí percebemos que era muito diferente dos círculos presenciais. Que não temos controle nenhum sobre quem escuta! E já que não poderíamos realmente tornar estes podcasts espaços seguros, deveríamos aproveitar esse potencial para torná-los espaço para ampliar a voz das mulheres e trazer a publico nossas reflexões sobre questões do nosso território.
 Após os 3 primeiro episódios inauguramos uma segunda etapa.
-Seriam outros 3 episódios com um formato novo, desenhados para tratar da construção da rede comunitária como um território virtual.
+Seriam outros 3 episódios com um formato novo, desenhados para tratar da construção da rede comunitária como um _território virtual_.
 
-Em uma fase mais branda da pandemia pudemos entrevistar algumas mulheres, todas elas não haviam participado do circulo no ano anterior. Isso tem sido muito importante pra gente, ouvir outras mulheres além do nosso circulo mais próximo e expandir nossa rede de relações.
+Em uma fase mais branda da pandemia pudemos entrevistar algumas mulheres, todas elas **não** haviam participado do circulo no ano anterior. Isso tem sido muito importante pra gente, ouvir outras mulheres além do nosso circulo mais próximo e expandir nossa rede de relações.
 A gente lançou perguntas bastante ligadas a ocupação e quis saber sobre o sentimento delas a respeito do espaço do bairro, onde circulam, onde circulavam... e as respostas foram verdadeiros tesouros que recebemos. Vamos criando assim as pontes entre a Portal sem Porteiras e a comunidade.

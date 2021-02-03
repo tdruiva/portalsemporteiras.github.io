@@ -2,7 +2,9 @@
 ---
 $azul-claro: #c9f1fe;
 $azul-escuro: #005776;
-$laranja: rgba(255, 100, 0, 0.6);
+$laranja-transparente: rgba(255, 100, 0, 0.6);
+$laranja: rgba(255, 100, 0, 1);
+$ocre: rgba(222, 104, 64, 0.3);
 $violeta: #760057;
 $verde: #577600;
 
@@ -76,9 +78,6 @@ $verde: #577600;
 h1 {
   color: $azul-escuro;
   font-size: 2.725em;
-}
-
-h1 {
   text-align: center;
 }
 
@@ -156,7 +155,7 @@ h1 {
       bottom: 0;
       display: block;
       font-size: 3em;
-      background-color: rgba(255, 100, 0, 1);
+      background-color: $laranja;
       padding: 10px;
       width: 93%;
     }
@@ -170,6 +169,82 @@ h1 {
   }
 }
 
-.gotop {
+.nodecasts {
+}
+
+.episodio {
+  background-color: $ocre;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+
+  strong {
+    display: block;
+    background-color: $azul-escuro;
+    padding: 10px;
+    color: white;
+  }
+
+  audio {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+.audio {
+  position: relative;
+}
+
+.download {
+  content: "Download";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  margin: 5px 15px 15px;
+}
+
+.episodio .abrir,
+.fechar {
   background-color: $laranja;
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.episodio .abriri:visited {
+  color: black;
+}
+
+.modal{
+  background-color: white;
+  padding: 10px;
+  text-align: initial;
+}
+
+.fechar {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+.transcricao{
+  position: relative;
+
+  > div {
+    position: absolute;
+  }
+}
+
+#transcricao-selfcare:not(:target) {
+  display: none;
+  opacity: 0;
+}
+
+.cartazes img {
+  max-width: 23%;
+}
+
+.gotop {
+  background-color: $laranja-transparente;
 }
