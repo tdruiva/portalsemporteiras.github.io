@@ -13,7 +13,7 @@ layout: nos-por-nos/base
   {% assign nodecasts = site.data.nodecasts.episodios %}
   {% for nodecast in nodecasts %}
   {% assign audio = site.url | append: '/assets/musicas/' | append: nodecast.audio %}
-  <div class="episodio">
+  <div class="episodio" id="{{ forloop.index }}">
     <div class="nome">
       <a href="{{ audio }}" class="download" title="Download"></a>
       <strong>{{ nodecast.titulo[page.lang] }}</strong>
@@ -26,7 +26,7 @@ layout: nos-por-nos/base
     <a href="#{{ nodecast.transcricao }}" class="abrir">Transcription</a>
     <div id="{{ nodecast.transcricao }}" class="modal">
       <div class="transcricao">
-        <a class="fechar" href="#">X</a>
+        <a class="fechar" href="#{{ forloop.index }}">X</a>
         <div>
           {{ site.data.nodecasts[nodecast.transcricao].conteudo }}
         </div>

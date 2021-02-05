@@ -19,7 +19,7 @@
     en: Virus!,
     pt: Vírus!
   }
-  transcricao: transcricao-autocuidado
+  transcricao: transcricao-virus
 - audio: npn_ep3_sonhos.mp3
   cartaz: {
     arquivo: nodecast-3.jpeg,
@@ -30,7 +30,7 @@
     en: Dreams and Digital Unconscious,
     pt: Sonhos e Incosciente Digital
   }
-  transcricao: transcricao-autocuidado
+  transcricao: transcricao-dreams
 - audio: npn_ep4_cercas.ogg
   cartaz: {
     arquivo: nodecast-4.jpeg,
@@ -41,4 +41,4 @@
     en: "Fences",
     pt: "Cercas"
   }
-  transcricao: transcricao-autocuidado
+  transcricao: transcricao-fences
