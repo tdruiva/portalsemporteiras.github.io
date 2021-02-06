@@ -177,6 +177,7 @@ h1 {
   margin-bottom: 15px;
   padding: 10px;
   text-align: center;
+  position: relative;
 
   strong {
     display: block;
@@ -191,17 +192,22 @@ h1 {
   }
 }
 
-.audio {
-  position: relative;
-}
-
 .download {
   content: "Download";
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   left: 0;
   margin: 5px 15px 15px;
+  background-image: url("../images/simple-icons/download-40.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $laranja;
+
+  @media only screen and (min-width: 1000px) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .episodio .abrir,
@@ -222,6 +228,7 @@ h1 {
   margin-top: 15px;
   text-align: initial;
   position: absolute;
+  z-index: 99;
 }
 
 .fechar {
@@ -234,7 +241,6 @@ h1 {
 
 .transcricao{
   position: relative;
-
 }
 
 #transcricao-selfcare:not(:target),
@@ -245,8 +251,8 @@ h1 {
   opacity: 0;
 }
 
-.cartazes img {
-  max-width: 23%;
+.cartazes {
+  display: flex;
 }
 
 .gotop {
