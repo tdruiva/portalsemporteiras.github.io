@@ -28,7 +28,7 @@ layout: nos-por-nos/base
       <div class="transcricao">
         <a class="fechar" href="#{{ forloop.index }}">X</a>
         <div>
-          {{ site.data.nodecasts[nodecast.transcricao].conteudo }}
+          {{ site.data.nodecasts[nodecast.transcricao].conteudo | newline_to_br }}
         </div>
       </div>
     </div>
