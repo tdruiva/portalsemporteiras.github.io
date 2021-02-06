@@ -5,3 +5,8 @@ descricao-imagem-2020: "Foto de três mulheres sentadas no chão, usando tapa bo
 descricao-imagem-2019: "Foto de mulheres sentadas em cículo, conversando"
 descricao-nodecast: "Clique aqui para escutar os Nodecasts"
 descricao-novella: "Clique aqui para escutar a Audio Novella"
+cartazes-nodecast:
+  - descricao: "Imagem de um cartaz, com o desenho de uma lua, convidando para escutar o Nodecast e questionando o que voce tem feito para se proteger"
+    arquivo: nodecast-1.jpeg
+  - descricao: "Uma descricao que falta descrever"
+    arquivo: nodecast-2.jpeg
