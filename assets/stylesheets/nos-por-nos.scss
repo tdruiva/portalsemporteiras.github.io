@@ -19,10 +19,10 @@ $verde: #577600;
 
 .body .unit-body {
   background-image: url('../images/nos-por-nos/fundo.jpg');
-  background-position: right;
+  background-position: bottom;
   background-color: #62c3e6;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
   @media only screen and (max-width: 540px) {
     background-image: initial;
@@ -94,6 +94,8 @@ h1 {
     a {
       background-color: $laranja;
       color: black;
+      border-radius: 10px;
+      padding: 5px;
     }
   }
 
@@ -203,6 +205,8 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-color: $laranja;
+  background-position: bottom;
+  border-radius: 10px;
 
   @media only screen and (min-width: 1000px) {
     width: 40px;
@@ -253,6 +257,10 @@ h1 {
 
 .cartazes {
   display: flex;
+}
+
+.breve {
+  text-align: center;
 }
 
 .gotop {
