@@ -7,4 +7,19 @@ layout: nos-por-nos/base
 
 <div class="texto">
   {{ content }}
+
+  {% assign apostila = nos-por-nos.apostila %}
+  <div class="apostila">
+    <a href="{{ site.url | append: apostila.arquivo }}" title="{{ apostila.msg-download }}">
+      <span>{{ apostila.titulo }}</span>
+      <img src="{{ site.url }}/assets/images/nos-por-nos/apostila.png" title="{{ apostila.legenda }}"/>
+    </a>
+
+    {% if page.lang == 'en' %}
+    <a href="{{ site.url }}/assets/documentos/newsletter.pdf" title="Download our newsletter">
+      <span>Newsletter</span>
+      <img src="{{ site.url }}/assets/images/nos-por-nos/newsletter.jpg" title="Newsletter thumbnail, with a picture of a women group"/>
+    </a>
+    {% endif %}
+  </div>
 </div>
