@@ -8,6 +8,7 @@ descricao-nodecast: "Click here to linsten to Nodecasts episodes"
 descricao-novella: "Click here to listen to Audio Novella"
 apostila: {
   arquivo: "/assets/documentos/workbook-nodes-that-bond.pdf",
+  capa: "/assets/images/nos-por-nos/workbook.png",
   legenda: "A draw of a montain, with houses on top of it and above them a mesh connecting each house, where each node is a feminism icon",
   msg-download: "Download our Workbook",
   titulo: Workbook
