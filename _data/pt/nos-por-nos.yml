@@ -1,12 +1,13 @@
-titulo: Nós por Nós
+titulo: "Nós por Nós"
 link-idioma: "Clique aqui para acessar o conteúdo da página em Português"
 link-index: "Clique aqui para ir à pagina inicial do projeto"
 descricao-imagem-2020: "Foto de três mulheres sentadas no chão, usando tapa boca e em volta delas equipamentos eletrônicos, como computadores e monitores."
 descricao-imagem-2019: "Foto de mulheres sentadas em cículo, conversando"
 descricao-nodecast: "Clique aqui para escutar os Nodecasts"
 descricao-novella: "Clique aqui para escutar a Audio Novella"
-cartazes-nodecast:
-  - descricao: "Imagem de um cartaz, com o desenho de uma lua, convidando para escutar o Nodecast e questionando o que voce tem feito para se proteger"
-    arquivo: nodecast-1.jpeg
-  - descricao: "Uma descricao que falta descrever"
-    arquivo: nodecast-2.jpeg
+apostila: {
+  arquivo: "/assets/documentos/apostila-nos-por-nos.pdf",
+  legenda: "Desenho de uma montanha com casas no topo dela e sobre as casas, uma rede conectando cada uma e em cada nó, um simbolo de feminino",
+  msg-download: "Baixe a nossa apostila",
+  titulo: "Apostila",
+  }
