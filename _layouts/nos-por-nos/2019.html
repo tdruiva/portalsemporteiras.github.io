@@ -12,7 +12,7 @@ layout: nos-por-nos/base
   <div class="apostila">
     <a href="{{ site.url | append: apostila.arquivo }}" title="{{ apostila.msg-download }}">
       <span>{{ apostila.titulo }}</span>
-      <img src="{{ site.url }}/assets/images/nos-por-nos/apostila.png" title="{{ apostila.legenda }}"/>
+      <img src="{{ site.url | append: apostila.capa }}" title="{{ apostila.legenda }}"/>
     </a>
 
     {% if page.lang == 'en' %}
