@@ -1,0 +1,10 @@
+lang: ruby
+before_install:
+  - gem install jekyll bundler
+script:
+  - make
+after_success:
+  - .travis/push.sh
+env:
+  global:
+    secure:
